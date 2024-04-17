@@ -1,0 +1,32 @@
+userName: matheusbereta1
+accessKey: L5sYjGkuFrdNpzE4rt5h
+
+framework: testng
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+parallelsPerPlatform: 1
+
+browserstackLocal: true
+
+buildName: selenium-bs-sample
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Selenium BrowserStack Sample
+
+testObservability: true
+networkLogs: true
+consoleLogs: info
+
+percy: false
+percyCaptureMode: auto
